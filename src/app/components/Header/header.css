@@ -1,0 +1,36 @@
+.header{
+    height: 60px;
+    background: #fcd303;
+    box-shadow: -2px -1px 20px 0px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+.header_title{
+    margin: 0;
+}
+
+.cart_wrap{
+    cursor: pointer;
+    position: relative;
+}
+
+.cart_item_counter{
+    position: absolute;
+    width: max-content;
+    padding: 0 3px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart_icon{
+    font-size: 30px;
+}

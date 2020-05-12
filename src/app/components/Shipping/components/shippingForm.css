@@ -1,0 +1,47 @@
+.shipping_form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 20px;
+}
+
+.shipping_form__label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    padding-bottom: 25px;
+}
+
+.shipping_form__input{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+.shipping_form__submit{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgb(180, 179, 176);
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.shipping_form__submit:hover{
+    background: rgb(160, 159, 158);
+}
+
+.shipping_form__error{
+    color: red;
+    line-height: 10px;
+    font-size: 14px;
+}
